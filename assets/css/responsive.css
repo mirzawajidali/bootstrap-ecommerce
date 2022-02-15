@@ -31,4 +31,23 @@
   .home .home-banner .home-banner-text h2 {
     font-size: 18px;
   }
+
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-container .contact-content {
+    text-align: center;
+  }
+  .product-more-detail {
+    flex-direction: column;
+  }
+  .product-nav {
+    flex-direction: column;
+  }
+  .product-container-sm {
+    margin: auto;
+  }
+  .product-main-image {
+    width: 700px;
+  }
 }

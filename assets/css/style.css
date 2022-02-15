@@ -35,6 +35,28 @@
 .btn-primary {
   background-color: var(--text-dark-gray);
 }
+.btn:focus {
+  box-shadow: none;
+}
+.form-control {
+  border-radius: 0%;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--bg-danger);
+}
+.form-select {
+  border-radius: 0%;
+  width: 100px;
+}
+
+.form-select:focus {
+  box-shadow: none;
+}
+.select-option {
+  border-radius: 0%;
+  color: var(--text-danger);
+}
 
 body {
   font-family: var(--primary-font);
@@ -101,6 +123,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-110%, -50%);
+}
+.home-banner-text h1 {
+  font-weight: bold;
+  font-size: 55px;
 }
 
 /* Brand  */
@@ -194,4 +220,40 @@ body {
 /* Shop CSS  */
 .shop {
   padding-top: 100px;
+}
+
+/*Contact CSS*/
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.btn-contact-social {
+  color: var(--bg-danger);
+}
+.social-link-contact .social-box {
+  text-align: center;
+  padding-right: 20px;
+}
+
+/* Product Page CSS */
+.product {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.product-nav {
+  background-color: var(--bg-light-white);
+}
+.product-more-detail .nav-item {
+  margin: auto;
+}
+.product-more-detail .nav-item .btn-product-tab {
+  color: var(--text-black);
+  font-size: 20px;
+  border-bottom: 1px solid var(--bg-danger);
+}
+.product-more-detail .nav-item .btn-product-tab:hover {
+  color: var(--bg-danger);
+}
+.product-sm-image {
+  width: 100px;
 }
