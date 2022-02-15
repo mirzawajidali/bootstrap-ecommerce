@@ -1,0 +1,34 @@
+/* Ipad Pro  */
+@media (max-width: 1030px) {
+  .home .home-banner .home-banner-1 {
+    background-position: 65% center;
+    min-height: 550px;
+  }
+  .home .home-banner .home-banner-text {
+    transform: translate(-80%, -50%);
+  }
+}
+/* Ipad  */
+@media (max-width: 991px) {
+  .home .home-banner .home-banner-text {
+    transform: translate(-66%, -50%);
+  }
+}
+/* Mobile  */
+@media (max-width: 767px) {
+  .home .home-banner .home-banner-1 {
+    background-position: 50% center;
+    min-height: 450px;
+  }
+  .home .home-banner .home-banner-text {
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+  .home .home-banner .home-banner-text h1 {
+    font-size: 38px;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 18px;
+  }
+}

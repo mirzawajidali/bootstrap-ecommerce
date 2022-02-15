@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /* Background Colors  */
+  --bg-danger: #f63440;
+  --bg-danger-hover: #f8253a;
+  --bg-white: #ffffff;
+  --bg-light-white: #f5f5f5;
+  /* Text Colors  */
+  --primary-font: "Poppins", sans-serif;
+  --text-white: #fff;
+  --text-black: #121212;
+  --text-danger: #f63440;
+  --text-gray: #aaa;
+  --text-dark-gray: #777;
+}
+/* Buttons Styling  */
+.btn {
+  border: none;
+  border-radius: 0%;
+  padding: 0.8rem 1.5rem;
+}
+.btn-danger {
+  background-color: var(--bg-danger);
+}
+.btn-white {
+  background-color: var(--bg-white);
+}
+.btn-white:hover {
+  background-color: var(--bg-danger-hover);
+}
+.btn-primary {
+  background-color: var(--text-dark-gray);
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  background: var(--bg-white);
+  overflow-x: hidden;
+}
+/* Navigation Styling  */
+.search {
+  border: none;
+  background-color: var(--bg-light-white);
+  border-radius: 0%;
+}
+.search:focus {
+  box-shadow: none;
+  background-color: var(--bg-light-white);
+}
+.search-btn {
+  background-color: var(--bg-danger);
+  color: var(--bg-white);
+  border-radius: 0%;
+  border: none;
+  padding: 0.8rem 1.5rem;
+}
+.search-btn:hover {
+  background-color: var(--bg-danger-hover);
+}
+#header .navbar-nav .nav-item .nav-link {
+  color: var(--text-black);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active {
+  color: var(--bg-danger);
+}
+.nav-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: none;
+}
+
+/* Home CSS  */
+.home .home-banner-1,
+.home .home-banner-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% center;
+  min-height: 650px;
+  position: relative;
+}
+.home .home-banner-1 {
+  background-image: url("../images/slider2.jpg");
+}
+.home .home-banner-2 {
+  background-image: url("../images/slider1.jpg");
+}
+.home-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
+}
+
+/* Brand  */
+
+.brand-col {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  /* margin-right: 30px; */
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.brand-col:hover {
+  background-color: var(--bg-light-white);
+}
+.brand-image {
+  width: 120px;
+}
+.line {
+  margin: auto;
+  width: 100px;
+  height: 3px;
+  background-color: var(--bg-danger);
+}
+
+/* Product CSS */
+.product-img {
+  width: 200px;
+}
+.product-box {
+  padding-bottom: 60px;
+}
+.product-link {
+  transform: uppercase;
+  text-decoration: none;
+  color: var(--text-black);
+  transition: all ease-in-out;
+}
+.product-link:hover {
+  color: var(--bg-danger);
+}
+.product-price .price {
+  font-size: 18px;
+}
+.product-price .price del {
+  color: var(--bg-danger);
+}
+.rating-link {
+  text-decoration: none;
+  color: var(--text-black);
+}
+.rating-link:hover {
+  color: var(--bg-danger-hover);
+}
+.star-active {
+  color: var(--bg-danger);
+}
+
+/* Footer CSS  */
+.footer {
+  background-color: var(--bg-danger);
+  color: var(--text-white);
+}
+.footer-contact h3 {
+  color: var(--text-white);
+  font-size: 30px;
+}
+.footer p {
+  font-size: 14px;
+}
+.footer p a {
+  text-decoration: none;
+  color: var(--text-white);
+}
+.footer-line {
+  width: 120px;
+  height: 2px;
+  margin: auto;
+  background-color: white;
+}
+.footer-social-link h3 {
+  color: var(--text-white);
+  font-size: 30px;
+}
+.subscribe-feild:focus {
+  box-shadow: none;
+}
+.subscribe-feild {
+  border-radius: 0%;
+  box-shadow: none;
+}
+/* Shop CSS  */
+.shop {
+  padding-top: 100px;
+}
